@@ -1,0 +1,17 @@
+[{
+    "method": "GET",
+    "path": "/users/me/cart",
+    "handler": "cart.getCart"
+},
+
+{
+  "method": "POST",
+  "path": "/users/me/cart",
+  "handler": "cart.addToCart"
+},
+{
+  "method": "DELETE",
+  "path": "/users/me/cart",
+  "handler": "cart.removeFromCart"
+}]
+  

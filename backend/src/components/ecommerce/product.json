@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_ecommerce_products",
+  "info": {
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Price": {
+      "type": "decimal"
+    }
+  }
+}
